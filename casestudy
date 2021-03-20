@@ -1,1 +1,42 @@
-.
+package com.calculator;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;  
+
+@WebService
+public class usermidterm {
+    
+   @WebMethod
+   public int name (int coco, int melon){
+       return coco+melon;
+   }
+   @WebMethod
+   public int pet (int dog, int lukring){
+       return dog-lukring;
+   }
+   @WebMethod
+   public int address (int somewhere, int downtheroad){
+       return somewhere-downtheroad;
+   }
+   @WebMethod
+   public int foods (int apple, int pizza){
+       return apple-pizza;
+    }
+   @WebMethod
+   public int course (int LAW, int STEM){
+       return LAW/STEM;
+   }
+   @WebMethod
+   public int school(int UP, int EU){
+       return UP/EU;
+    }
+   @WebMethod
+   public int fathername (int daniel, int padilla){
+       return daniel-padilla;
+   }
+   @WebMethod
+   public int mothername (int mari, int tes){
+       return mari-tes;
+   }
+  
+}
